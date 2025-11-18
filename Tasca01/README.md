@@ -99,7 +99,7 @@ El grup redacta el document final que s’entregarà a l’empresa.
 
 ---
 
-# 📄 Document Final (Lliurable de Grup)
+# [📄 Document Final (Lliurable de Grup)](tasca01.md)
 
 ## **1) Dades Objecte de Còpia**
 Detallar:
