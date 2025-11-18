@@ -105,7 +105,7 @@ Aquest conjunt forma la teva **carpeta professional**, la millor prova del teu p
 ---
 
 ## Bloc Backup i Recuperació (Seguretat)
-- **T01 — DRP: cas client**  
+- **[T01 — DRP: Còpies de seguretat](Tasca01/README.md)**  
 - **T02 — DRP: cas pràctic**  
 - **T03 — Imatges del sistema (Rescuezilla)**  
 
