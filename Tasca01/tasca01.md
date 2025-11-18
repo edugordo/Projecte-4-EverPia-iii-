@@ -16,7 +16,7 @@
    - ***Quin mitjà utilitzar? (HDD extern, NAS, Cloud, Cintes…):*** Depenent de la quantitat de dades que es necessiti guardar, en cas que la quantitat sigui gran, cintes magnètiques, si no es molt gran, amb un disc dur val, ja que té una bona relació de preu per capacitat encara que té problemes de vida i fiabilitat
    - ***On guardar la còpia més recent segons la **regla 3-2-1**:*** La còpia més recent s'ha de fer diariament i s'ha de tenir l'arxiu original i dos back-ups localment
 
-**FASE 2: GRUPAL**
+# **FASE 2: GRUPAL**
 
 Després de comparar las tres respostes hem vist que tenim coses semblants com per exemple:
 
@@ -55,7 +55,7 @@ NAS \+ Disc dur extern \+ Cloud
 
 Cloud
 
-**Document Final (Fase 3\)**
+# **Document Final (Fase 3\)**
 
 El grup ha de generar un document amb els següents punts resolts:
 
