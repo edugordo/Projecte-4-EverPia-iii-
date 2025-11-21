@@ -106,36 +106,36 @@ Aquest conjunt forma la teva **carpeta professional**, la millor prova del teu p
 
 ## Bloc Backup i Recuperació (Seguretat)
 - **[T01 — DRP: Còpies de seguretat](Tasca01/README.md)**  
-- **T02 — DRP: cas pràctic**  
-- **T03 — Imatges del sistema (Rescuezilla)**  
+- **[T02 — DRP: cas pràctic](Tasca02/README.md)**  
+- **[T03 — Imatges del sistema (Rescuezilla)](Tasca03/README.md)**  
 
 ---
 
 ## Bloc Accés remot (Serveis)
-- **T04 — Introducció a l’accés remot**  
-- **T05 — SSH**  
-- **T06 — RDP**  
-- **T07 — Assistència remota**  
+- **[T04 — Introducció a l’accés remot](Tasca04/README.md)**  
+- **[T05 — SSH](Tasca05/README.md)**  
+- **[T06 — RDP](Tasca06/README.md)**  
+- **[T07 — Assistència remota](Tasca06/README.md)**  
 
 ---
 
 ## Bloc Servidors (SOX)
-- **T08 — Auditoria i estàndards de servidors**  
-- **T09 — NFS**  
-- **T10 — CUPS**  
+- **[T08 — Auditoria i estàndards de servidors](Tasca08/README.md)**  
+- **[T09 — NFS](Tasca09/README.md)**  
+- **[T10 — CUPS](Tasca10/README.md)**  
 
 ---
 
 ## Bloc UX / WEB
-- **T11 — Figma bàsic**  
-- **T12 — Fonaments Landing + Checkout**  
-- **T13 — Ecommerce en Figma**  
+- **[T11 — Figma bàsic](Tasca11/README.md)**  
+- **[T12 — Fonaments Landing + Checkout](Tasca12/README.md)**  
+- **[T13 — Ecommerce en Figma](Tasca13/README.md)**  
 
 ---
 
 ## Bloc Sostenibilitat
-- **T14 — Prova escrita (1h)**  
-- **T15 — Circularitat família professional**
+- **[T14 — Prova escrita (1h)](Tasca14/README.md)**  
+- **[T15 — Circularitat família professional](Tasca15/README.md)**
 
 ---
 
