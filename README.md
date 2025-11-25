@@ -139,4 +139,8 @@ Aquest conjunt forma la teva **carpeta professional**, la millor prova del teu p
 
 ---
 
-
+# 📝 Productes Finals del projecte
+- **[P01 — GitHub. Treballant de forma col·laborativa: forks i pull request.](Producte01/README.md)**  
+- **[P02 — Presentació i Projecció de la Maqueta web al Client](Producte02/README.md)**
+- **[P03 — Kanban del projecte](Producte03/README.md)**
+- **[P04 — Fitxes d’Economia Circular](Producte04/README.md)**
