@@ -40,3 +40,4 @@ Comencem la PoC! 🚀
 
 L’objectiu d’aquesta activitat és **configurar el servei SSH** per permetre la connexió remota tant a equips **Linux** com **Windows** de forma segura.
 
+### 📄 [Solució](solucio.md)
