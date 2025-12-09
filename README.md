@@ -106,13 +106,13 @@ Aquest conjunt forma la teva **carpeta professional**, la millor prova del teu p
 
 ## Bloc Backup i Recuperació (Seguretat)
 - **✅ [T01 — DRP: Còpies de seguretat](Tasca01/README.md)**  
-- **[T02 — DRP: cas pràctic](Tasca02/README.md)**  
+- **✅ [T02 — DRP: cas pràctic](Tasca02/README.md)**  
 - **[T03 — Imatges del sistema (Rescuezilla)](Tasca03/README.md)**  
 
 ---
 
 ## Bloc Accés remot (Serveis)
-- **[T04 — Introducció a l’accés remot](Tasca04/README.md)**  
+- **✅ [T04 — Introducció a l’accés remot](Tasca04/README.md)**  
 - **✅ [T05 — SSH](Tasca05/README.md)**  
 - **[T06 — RDP](Tasca06/README.md)**  
 - **[T07 — Assistència remota](Tasca06/README.md)**  
