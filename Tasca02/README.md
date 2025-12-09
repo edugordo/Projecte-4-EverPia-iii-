@@ -70,3 +70,5 @@ http://manpages.ubuntu.com/manpages/trusty/man1/duplicity.1.html
 
 ### ⏱️ Programar tasques amb cron:
 https://geekytheory.com/programar-tareas-en-linux-usando-crontab
+
+✅ [Solució](solucio.md)
