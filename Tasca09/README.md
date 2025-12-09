@@ -66,3 +66,4 @@ Aquí tens la descripció completa del projecte amb passos, requisits i estructu
 - **Documentació oficial d’Ubuntu:**  
   https://documentation.ubuntu.com/server/how-to/networking/install-nfs/
 
+### 📄 [Solució](solucio.md)
