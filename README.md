@@ -105,7 +105,7 @@ Aquest conjunt forma la teva **carpeta professional**, la millor prova del teu p
 ---
 
 ## Bloc Backup i Recuperació (Seguretat)
-- **[T01 — DRP: Còpies de seguretat](Tasca01/README.md)**  
+- **✅ [T01 — DRP: Còpies de seguretat](Tasca01/README.md)**  
 - **[T02 — DRP: cas pràctic](Tasca02/README.md)**  
 - **[T03 — Imatges del sistema (Rescuezilla)](Tasca03/README.md)**  
 
@@ -113,7 +113,7 @@ Aquest conjunt forma la teva **carpeta professional**, la millor prova del teu p
 
 ## Bloc Accés remot (Serveis)
 - **[T04 — Introducció a l’accés remot](Tasca04/README.md)**  
-- **[T05 — SSH](Tasca05/README.md)**  
+- **✅ [T05 — SSH](Tasca05/README.md)**  
 - **[T06 — RDP](Tasca06/README.md)**  
 - **[T07 — Assistència remota](Tasca06/README.md)**  
 
@@ -121,7 +121,7 @@ Aquest conjunt forma la teva **carpeta professional**, la millor prova del teu p
 
 ## Bloc Servidors (SOX)
 - **[T08 — Auditoria i estàndards de servidors](Tasca08/README.md)**  
-- **[T09 — NFS](Tasca09/README.md)**  
+- **✅ [T09 — NFS](Tasca09/README.md)**  
 - **[T10 — CUPS](Tasca10/README.md)**  
 
 ---
