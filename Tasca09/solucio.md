@@ -164,6 +164,20 @@ sudo apt install nfs-common -y
 
 ---
 
+![imatge](IMG/2.1.png)
+![imatge](IMG/2.2.png)
+
+Aqui podem veure que, quan hem creat els grups i els usuaris en el client, automaticamanet s'han assignat els mateixos valors UID i GID que en el servidor tant per l'usuari com el grup que pertany
+
+```
+id dev01
+```
+```
+id admin01
+```
+
+---
+
 ![imatge](IMG/13.png)
 
 Amb aquesta comanda podem veure les carpetes que s'estàn compartint des de la IP 192.168.56.112
