@@ -309,3 +309,13 @@ mount | grep nfs
 ```
 
 ---
+
+### Conclusió
+
+Hem creat un servidor NFS i un client que comparteixen fitxers de manera centralitzada. Funciona bé per organitzar projectes i eines, permetent controlar qui pot accedir i escriure. És una forma pràctica de treballar en equip sense duplicar fitxers.
+
+### Recomanacions per el client
+
+- Mantenir coherència els UIDs i GIDs entre servidor i clients.
+- Fer còpies de seguretat regulars dels projectes i eines.
+- Comprovar el servei NFS periòdicament.
