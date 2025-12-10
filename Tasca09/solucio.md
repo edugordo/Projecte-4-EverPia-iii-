@@ -3,6 +3,14 @@
 ### Edu Gordo | SMX 2A
 
 ---
+![imatge](IMG/1.1.png)
+![imatge](IMG/1.2.png)
+![imatge](IMG/1.3.png)
+![imatge](IMG/1.4.png)
+
+Aquest son els adaptadors que utilitzarme tan el el servidor com en el client per poder lograr la connexió entre els dos via SSH
+
+---
 
 ![imatge](IMG/1.png)
 
