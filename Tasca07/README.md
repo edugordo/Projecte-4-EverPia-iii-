@@ -54,7 +54,7 @@ Quan estiguem en el menú, anirem a l'esquerra en l'apartat de "Suport Remot" i 
 
 ![imatge](IMG/9.png)
 
-Haurem de verificar a l'usuari que vulguem donar-li permis per accedir al nostre dispositiu remotament
+Per unir-nos a uan sessió, haurem d'introduir el codi que ens doni la persona que es vulgui connectar a nosaltres. Seguidament haurem de verificar a l'usuari que vulguem donar-li permis per accedir al nostre dispositiu remotament
 
 ---
 
