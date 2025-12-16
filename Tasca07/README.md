@@ -63,6 +63,7 @@ Haurem de verificar a l'usuari que vulguem donar-li permis per accedir al nostre
 I com podem veure, el usuari que és volia connectar al nostre dispositiu ja ho pot fer sense cap problema i pot controlar el nostre dispositiu remotament 
 
 (Aquesta practica està fet amb un company de classe, per aixó el seu nom en l'última imatge "Abdeslam Khfif Koubee")
+
 ---
 
 
