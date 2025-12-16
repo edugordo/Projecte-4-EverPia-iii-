@@ -115,7 +115,7 @@ Aquest conjunt forma la teva **carpeta professional**, la millor prova del teu p
 - **✅ [T04 — Introducció a l’accés remot](Tasca04/README.md)**  
 - **✅ [T05 — SSH](Tasca05/README.md)**  
 - **[T06 — RDP](Tasca06/README.md)**  
-- **[T07 — Assistència remota](Tasca06/README.md)**  
+- **✅ [T07 — Assistència remota](Tasca07/README.md)**  
 
 ---
 
