@@ -66,4 +66,8 @@ I com podem veure, el usuari que és volia connectar al nostre dispositiu ja ho 
 
 ---
 
-
+### Recomanacions per a Sessions Segures:
+1. **No desar contrasenyes de clients** - Cada sessió genera una contrasenya nova
+2. **Tancar sempre la sessió** - Un cop finalitzat el suport, tancar la connexió
+3. **Utilitzar accés fàcil amb compte** - Per connexions recurrents, configurar accés fàcil amb autenticació de compte
+4. **Informar al client** - Explicar al client quines accions realitzarem
