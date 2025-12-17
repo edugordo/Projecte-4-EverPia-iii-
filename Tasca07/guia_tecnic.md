@@ -42,7 +42,7 @@ Esperem a que acabi d'instal·lar-se correctament l'aplicació
 
 ![imatge](IMG_Tecnic/7.png)
 
-Accepteem els "terminos y condiciones de l'aplicació"
+Acceptem els "terminos y condiciones de l'aplicació"
 
 ---
 
