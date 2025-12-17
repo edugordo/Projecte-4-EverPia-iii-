@@ -4,30 +4,30 @@
 
 ![imatge](IMGW/1.png)
 
-info
+Habilitem l'escriptori remot des de la configuració de Windows
 
 ---
 
 ![imatge](IMGW/2.png)
 
-info
+Hauría de quedar tal que aixi amb l'escriptori remot habilitat i el port de l'escriptori remot
 
 ---
 
 ![imatge](IMGW/3.png)
 
-info
+Anem a l'apartat de "usuaris de escriptori remot" i afegim un usuari nou
 
 ---
 
 ![imatge](IMGW/4.png)
 
-info
+Creem l'usuari, li posem el nom que vulguem i li donem a acceptar
 
 ---
 
 ![imatge](IMGW/5.png)
 
-info
+I ja tindriem l'usuari creat en l'escriptori remot
 
 ---
