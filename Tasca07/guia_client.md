@@ -4,61 +4,61 @@
 
 ---
 
-![imatge](IMG/1.png)
+![imatge](IMG_Client/1.png)
 
 Busquem TeamViewer des de qualsevol navegador per poder accedir remotament al client
 
 ---
 
-![imatge](IMG/2.png)
+![imatge](IMG_Client/2.png)
 
 El descarreguem des de la pagina web oficial
 
 ---
 
-![imatge](IMG/3.png)
+![imatge](IMG_Client/3.png)
 
 Esperem a que es completi la baixada
 
 ---
 
-![imatge](IMG/4.png)
+![imatge](IMG_Client/4.png)
 
 Acceptem i continuem per instal·lar-lo
 
 ---
 
-![imatge](IMG/5.png)
+![imatge](IMG_Client/5.png)
 
 Acceptem els acodrs i les condicions i continuem
 
 ---
 
-![imatge](IMG/6.png)
+![imatge](IMG_Client/6.png)
 
 Quan estiguem en la pantalla principal de l'aplicació, el que haurem de fer es crear un compte, en el cas que el tinguem, iniciarem sessió directament
 
 ---
 
-![imatge](IMG/7.png)
+![imatge](IMG_Client/7.png)
 
 Aixì entrarem en la pagina principal del nostre usuari
 
 ---
 
-![imatge](IMG/8.png)
+![imatge](IMG_Client/8.png)
 
 Quan estiguem en el menú, anirem a l'esquerra en l'apartat de "Suport Remot" i sel·leccionarem l'opció de "Unir-se a una sessió
 
 ---
 
-![imatge](IMG/9.png)
+![imatge](IMG_Client/9.png)
 
 Per unir-nos a uan sessió, haurem d'introduir el codi que ens doni la persona que es vulgui connectar a nosaltres. Seguidament haurem de verificar a l'usuari que vulguem donar-li permis per accedir al nostre dispositiu remotament
 
 ---
 
-![imatge](IMG/11.png)
+![imatge](IMG_Client/11.png)
 
 I com podem veure, el usuari que és volia connectar al nostre dispositiu ja ho pot fer sense cap problema i pot controlar el nostre dispositiu remotament 
 
