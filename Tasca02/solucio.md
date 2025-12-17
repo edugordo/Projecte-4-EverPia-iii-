@@ -119,22 +119,22 @@ I ja la tenim creada, ara haurem d'esperar fins que es fagi la còpia
 ---
 ![imatgeWindows](IMG/Windows/24.png)
 
-info
+Fem la comprovació de fer la recuperació d'un arxiu
 
 ---
 ![imatgeWindows](IMG/Windows/25.png)
 
-info
+Per fer-ho, anirem a on tenim els backups en el duplicati i farem un "restore"
 
 ---
 ![imatgeWindows](IMG/Windows/26.png)
 
-info
+Sel·leccionem el que vulguem recuperar
 
 ---
 ![imatgeWindows](IMG/Windows/27.png)
 
-info
+I per últim, posem la ubicació on volem recuperar-ho. Farem el mateix amb el Google Drive, les captures no hi son perque s'havia d'esperar un temps a que es fes el backup i no les vaig poder fer, pero el procediment i el resultat hauria de ser el mateix que amb el primer backup
 
 ---
 
@@ -152,12 +152,24 @@ Entrarem a la terminal i començarem amb aquesta comanda que ens deixara veure e
 ---
 ![imatgeLinux](IMG/Linux/3.png)
 
-info
+Utilitzem aquesta comanda per gestionar la partició del disc que hem creat amb permisos d'adminstrador. Amb les dues linies que escribim, el que fem es crear una taula de particions i creem una nova amb la segona linia
+
+```
+sudo parted /dev/sdb
+```
+
+`mklabel gpt`
+
+`mkpart primary xfs 1MiB 100%`
 
 ---
 ![imatgeLinux](IMG/Linux/4.png)
 
-info
+Ab aquesta comanda mostra els discs i les particions que té el sistema i els seus punts de muntatge
+
+```
+lsblk -f
+```
 
 ---
 ![imatgeLinux](IMG/Linux/5.png)
@@ -167,7 +179,11 @@ Instal·lem el servei xfprogs
 ---
 ![imatgeLinux](IMG/Linux/6.png)
 
-info
+Formatem el disc "/dev/sdb" amb el sistema d'arxius XFS, i forçem a borra qualsevol format que hi hagues anteriorment
+
+```
+sudo mkfs.xfs -f /dev/sdb1
+```
 
 ---
 ![imatgeLinux](IMG/Linux/7.png)
@@ -197,27 +213,56 @@ iniicarem sessió com a usuari i crearem 4 fitxers de 10 MB
 ---
 ![imatgeLinux](IMG/Linux/12.png)
 
-info
+Definim una variablle d'entorn que es diu PASSPHRASE amb contrasenya
+
+```
+export PASSPHRASE="contrasenya_forta"
+```
 
 ---
 ![imatgeLinux](IMG/Linux/13.png)
 
-info
+Creem una còpia de seguretat amb duplicity del directori "/home" i el guardem en la ruta "/media/backup/duplicity"
+
+```
+sudo duplicity /home file:///media/backup/duplicity
+```
 
 ---
 ![imatgeLinux](IMG/Linux/14.png)
 
-info
+```
+sudo fallocate -l 4M /home/usuari/fitxer5.bin
+```
+Crea un arxiu de 4 MB i reserva espai en el disc
+
+```
+export PASSPHRASE="contrasenya_forta"
+```
+Defineix una contrasenya com a variable d'entorn per utilitzarla en la sessió actual
+
+```
+sudo duplicity /home file:///media/backup/duplicity
+```
+Realitza una còpia de seguretat del directori "/home" en la ruta "/media/backup/duplicity" utilitzant duplicity
 
 ---
 ![imatgeLinux](IMG/Linux/15.png)
 
-info
+Aquesta comanda mostra l'historial de les coppies de seguretat guardades en la ruta "/media/backup/duplicity"
+
+```
+duplicity collection-status file:///media/backup/duplicity
+```
 
 ---
 ![imatgeLinux](IMG/Linux/16.png)
 
-info
+Despontem el sistema d'arxius muntat en la ruta
+
+```
+sudo umount /media/backup
+```
 
 ---
 ![imatgeLinux](IMG/Linux/17.png)
@@ -242,36 +287,61 @@ info
 ---
 ![imatgeLinux](IMG/Linux/21.png)
 
-info
+Crea l'Script "incrementalbackup.sh" per editar-lo amb "NANO"
+```
+sudo nano /usr/local/bin/incrementalbackup.sh
+```
+Dona permisos d'execució al script per poder executar-lo com a programa
+```
+sudo chmod -x /usr/local/bin/incrementalbackup.sh
+```
 
 ---
 ![imatgeLinux](IMG/Linux/22.png)
 
-info
+Hem d'escriure el script que munta un disc, fa una còpia de seguretat incremental xifrada de /home amb duplicity, desa el registre i després desmunta el disc en el NANO que hem creat anteriorment.
 
 ---
 ![imatgeLinux](IMG/Linux/23.png)
 
-info
+Amb les dues linies del final, el que estem configurant es que s'executi una còpia de seguretat completa els diumenges a les 23:00 i una còpia incremental de dilluns a dissabte a les 23:00 utilitzant els scripts indicats.
+
+`0 23 * * 0 /usr/local/bin/fullbackup.sh`
+
+`0 23 * * 1-6 /usr/local/bin/incrementalbackup.sh`
 
 ---
 ![imatgeLinux](IMG/Linux/24.png)
 
-Com podem veure, la carpeta de Duplicity està creada
+Com podem veure, tenim la carpeta de Duplicity està creada
 
 ---
 ![imatgeLinux](IMG/Linux/25.png)
 
-I a dins hi podem trobar els backups
+I a dins hi podem trobar els fitxers dels backups
 
 ---
 ![imatgeLinux](IMG/Linux/26.png)
 
-info
+Amb aquesta comanda la terminal ens mostra que el backup amb duplicity s’ha creat correctament, amb una còpia completa i còpies incrementals xifrades guardades al disc de backup.
+
+```
+sudo mount /dev/sdb1 /media/backup
+```
 
 ---
 ![imatgeLinux](IMG/Linux/27.png)
 
-info
+La primera comanda munta la partició "/dev/sdb1" al directori "/media/backup" perquè el sistema pugui accedir al seu contingut.
+
+```
+sudo mount /dev/sdb1 /media/backup
+```
+I la segona mostra la llista de fitxers i carpetes dins del directori "/media/bacup/duplicity"
+
+```
+ls /media/bacup/duplicity
+```
 
 ---
+I amb aixó acabariem la pràctica de la tasca 2 del projecte 4
