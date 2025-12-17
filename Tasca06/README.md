@@ -70,3 +70,5 @@ L’objectiu principal d’aquesta activitat és:
 - 🔄 Tant a **equips Linux** com a **equips Windows**
 
 ---
+
+## 📄[Solució](solucio.md)
