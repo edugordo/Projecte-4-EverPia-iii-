@@ -31,3 +31,34 @@ Creem l'usuari, li posem el nom que vulguem i li donem a acceptar
 I ja tindriem l'usuari creat en l'escriptori remot
 
 ---
+
+![imatge](IMGW/6.png)
+
+I ja tindriem l'usuari creat en l'escriptori remot
+
+---
+![imatge](IMGW/7.png)
+
+I ja tindriem l'usuari creat en l'escriptori remot
+
+---
+![imatge](IMGW/8.png)
+
+I ja tindriem l'usuari creat en l'escriptori remot
+
+---
+![imatge](IMGW/9.png)
+
+I ja tindriem l'usuari creat en l'escriptori remot
+
+---
+![imatge](IMGW/10.png)
+
+I ja tindriem l'usuari creat en l'escriptori remot
+
+---
+![imatge](IMGW/11.png)
+
+I ja tindriem l'usuari creat en l'escriptori remot
+
+---
